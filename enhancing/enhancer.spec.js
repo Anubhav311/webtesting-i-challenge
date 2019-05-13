@@ -3,7 +3,6 @@ const enhancer = require('./enhancer.js');
 
 describe('enhancer', () => {
     describe('repair() method', () => {
-
         //tests for repair method
         it('should restore durability to 100', () => {
 
@@ -22,6 +21,10 @@ describe('enhancer', () => {
             expect(actual_repair_1.durability).toEqual(100);
             expect(actual_repair_2.durability).toEqual(100);
         });
+
+    })
+
+    describe('succeed(), method', () => {
 
         it('should increase enhancement by 1', () => {
 
@@ -57,7 +60,9 @@ describe('enhancer', () => {
             expect(actual_succeed_4.enhancement).toEqual(10);
 
         })
+    })
 
+    describe('fail(), method', () => {
         it('should decrease the enhancement and durability', () => {
 
             //cases where enhancement is less than 15

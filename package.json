@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "name": "webtesting-i-challenge",
+  "description": "In this project, you will demonstrate proficiency by writing unit tests and production code to satisfy the _Minimum Viable Product_ described below.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anubhav311/webtesting-i-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anubhav311/webtesting-i-challenge/issues"
+  },
+  "homepage": "https://github.com/Anubhav311/webtesting-i-challenge#readme"
+}
